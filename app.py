@@ -9,7 +9,7 @@ st.markdown("## 🌿 잎사귀 vs 도마뱀 🦎")
 st.write("아래에서 사진을 찍거나 업로드하여 도마뱀인지 나뭇잎인지 확인해보세요! 📷")
 
 # 모델 및 라벨 불러오기
-model = load_model('keras_model_leaf.h5', compile=False)
+model = load_model('keras_model.h5', compile=False)
 class_names = open('labels.txt', 'r').readlines()
 
 # UI 입력 방식 선택
