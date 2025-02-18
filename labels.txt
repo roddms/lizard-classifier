@@ -1,2 +1,2 @@
-0 human
-1 no-human
+0 lizard
+1 leaf
