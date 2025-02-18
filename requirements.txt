@@ -1,4 +1,3 @@
-keras
 numpy
 streamlit
 tensorflow==2.17.1
